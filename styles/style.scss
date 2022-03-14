@@ -67,10 +67,7 @@ section.outputArea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  h3 {
-    font-size: 1.8rem;
-    color: rgb(225, 149, 255);
-  }
+
   div.todo {
     width: 50vw;
     display: flex;
@@ -115,6 +112,17 @@ section.outputArea {
   opacity: 0.5;
   text-decoration: line-through;
   text-decoration-thickness: 0.2rem;
+}
+section.heading {
+  margin: 1rem 1rem 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    font-size: 1.8rem;
+    color: rgb(225, 149, 255);
+  }
 }
 
 @keyframes scaleUp {
